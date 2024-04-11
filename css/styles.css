@@ -1,3 +1,8 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), green);
+}
+
 .logo {
     display: block;
     margin: auto;
@@ -6,13 +11,23 @@
     height: 50px;
 }
 
+h1 {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
 .container {
-    max-width: 940px;
+    max-width: 500px;
     border: 2px solid black;
+    border-radius: 15px;
     background-color: antiquewhite;
+    margin-top: 10px;
     margin: auto;
     height: 60vh;
-    overflow-y: auto;
+    overflow-y: auto;             /* This gives auto scroll bar! */
     padding: 30px;
 }
 
@@ -40,9 +55,9 @@
 }
 
 #messageInp {
-    width: 940px;
+    width: 490px;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 12px;
     height: 28px;
     margin-top: 15px;
 }
@@ -52,9 +67,4 @@
     border: 2px solid black;
     border-radius: 5px;
     height: 34px;
-}
-
-body {
-    height: 100vh;
-    background-image: linear-gradient(rgb(255, 255, 255), green);
 }

@@ -1,0 +1,8 @@
+# .gitattributes
+* text=auto eol=lf
+
+# Ignore line ending changes for specific files or directories
+nodeServer/package-lock.json -text
+nodeServer/package.json -text
+package-lock.json -text
+package.json -text

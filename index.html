@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>We-chat</title>
-    <script src="/js/client.js"></script>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./js/client.js"></script>
     <link rel = "stylesheet" href="/css/styles.css">
 </head>
 
 <body>
     <nav>
         <img class = "logo" src="chat.png">
+        <h1> Welcome to We-Chat! </h1>
     </nav>
 
     <div class="container">
-        <div class="message left">Rohit: Kaisa hai bhai? </div>
-        <div class="message right">Prakhar: Badhiya bhai, tu bata </div>
     </div>
 
     <div class="send">
@@ -24,6 +24,5 @@
             <button class="btn" type="submit"> Send </button>
         </form>
     </div>
-
 </body>
 </html>
